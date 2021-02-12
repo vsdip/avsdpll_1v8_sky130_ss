@@ -4,3 +4,11 @@
 
 ![](/images/pd1.png)
 ![](/images/pd2.png)
+
+### FD
+![](/images/fd.png)
+
+### CP
+![](/images/cp.png)
+### VCO
+![](/images/vco.png)
