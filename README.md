@@ -12,17 +12,17 @@ Tested through spice simulations on skywater 130nm ss corner at room termperatur
 
 ![](/images/pd2.png)
 
-Red: Clock 2 \\
-Blue: Clock 1 \\
-Orange: Up Signal \\
+Red: Clock 2 <br />
+Blue: Clock 1 <br />
+Orange: Up Signal <br />
 Green: Down Signal
  
 ### Frequency Divider Circuit output
 
 ![](/images/fd.png)
 
-Red: Output Clock
-Blue: Input Clock 
+Red: Output Clock <br />
+Blue: Input Clock  <br />
 
 ### Charge Pump(CP) output
 
@@ -42,11 +42,11 @@ The PLL output from the prelayout simulation is as follows:
 
 ![](/images/pll2.png)
 
-Red: Reference Clock
-Blue: Output Clock Divided by 8
-Yellow: Down Signal
-Brown: Up Signal
-Pink (at top): ChargePump output 
+Red: Reference Clock <br />
+Blue: Output Clock Divided by 8 <br />
+Yellow: Down Signal <br />
+Brown: Up Signal <br />
+Pink (at top): ChargePump output  <br />
 
 ### Future Work
 1.We see that the frequency of the VCO output is less than what we expected, this is because we are using the slow corners and the delay is a lot. The goal in the next stage would be to fix this.
