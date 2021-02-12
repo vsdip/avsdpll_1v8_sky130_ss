@@ -12,11 +12,11 @@ Tested through spice simulations on skywater 130nm ss corner at room termperatur
 
 ![](/images/pd2.png)
 
-Red: Clock 2
-Blue: Clock 1
-Orange: Up Signal
+Red: Clock 2 \\
+Blue: Clock 1 \\
+Orange: Up Signal \\
 Green: Down Signal
-
+ 
 ### Frequency Divider Circuit output
 
 ![](/images/fd.png)
