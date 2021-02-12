@@ -49,7 +49,7 @@ Brown: Up Signal <br />
 Pink (at top): ChargePump output  <br />
 
 ### Future Work
-1.We see that the frequency of the VCO output is less than what we expected, this is because we are using the slow corners and the delay is a lot. The goal in the next stage would be to fix this.
+1.We see that the frequency of the VCO output is less than what we expected, this is because we are using the slow corners and the delay is a lot. The goal in the next stage would be to fix this. <br/>
 2. The overall output of PLL is not stable for long time and also the output frequency is less than desired valure, this is mainly due to VCO output frequency not matching up.
 
 ### Aknowledgement 
