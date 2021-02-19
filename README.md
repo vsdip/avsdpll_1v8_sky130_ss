@@ -62,7 +62,7 @@ Pink (at top): ChargePump output  <br />
 ![](/images/w3_3.png)
 
 ### Future Work
-The main broblem remaining is to fix the frequency of the VCO. This is causing the PLL to mibehave.
+The main broblem remaining is to fix the frequency of the VCO. This is causing the error in the PLL.
 
 ### Aknowledgement 
 This PLL IP was taken from Lakshmi S 's github page:  https://github.com/lakshmi-sathi/avsdpll_1v8
