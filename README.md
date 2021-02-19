@@ -48,9 +48,21 @@ Yellow: Down Signal <br />
 Brown: Up Signal <br />
 Pink (at top): ChargePump output  <br />
 
+### Work done in week 3
+1. Increased the xm44 pfet width from 480n to 640n in charge pum to fix the error it was causing.
+
+![](/images/w3_!.png)
+
+2. Changed transistor widths for FD.cir to fix the frequency
+
+![](/images/w3_2.png)
+
+3. Changed widths of lots of pfets in VCO. Was ablr to fix the voltage swings and levels but still having problem with the frequency.
+
+![](/images/w3_3.png)
+
 ### Future Work
-1.We see that the frequency of the VCO output is less than what we expected, this is because we are using the slow corners and the delay is a lot. The goal in the next stage would be to fix this. <br/>
-2. The overall output of PLL is not stable for long time and also the output frequency is less than desired valure, this is mainly due to VCO output frequency not matching up.
+The main broblem remaining is to fix the frequency of the VCO. This is causing the PLL to mibehave.
 
 ### Aknowledgement 
 This PLL IP was taken from Lakshmi S 's github page:  https://github.com/lakshmi-sathi/avsdpll_1v8
