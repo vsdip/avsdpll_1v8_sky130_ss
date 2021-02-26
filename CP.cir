@@ -3,7 +3,7 @@
 .include /home/subham/work/avsdpll_1v8/sky130nm.lib
 
 xm43 3 2 1 1 sky130_fd_pr__pfet_01v8 l=150n w=5.4u 
-xm44 out downb 3 1 sky130_fd_pr__pfet_01v8 l=150n w=420n 
+xm44 out downb 3 1 sky130_fd_pr__pfet_01v8 l=150n w=640n   
 xm31 out up 7 0 sky130_fd_pr__nfet_01v8 l=150n w=420n
 xm32 7 8 0 0 sky130_fd_pr__nfet_01v8 l=150n w=5.4u
 
