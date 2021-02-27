@@ -2,7 +2,7 @@
 
 ### Running the Simulation
 1. Clone this repo. <br/>
-2. Download and add  `Sky130_Primitives` to the folder <br/>
+2. Download and add  `Sky130_Primitives` to the folder  (Can be downloaded from the github link in Aknowledgement)<br/>
 3. cd <repo_name>/Prelayout <br/>
 4. open the PLL_PreLay.cir and change .include /home/subham/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib accordingly . <br/>
 5. Run the PLL circuit by typing `ngspice PLL_PreLay.cir` <br/>
