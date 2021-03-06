@@ -50,6 +50,8 @@ The PLL output from the prelayout simulation is as follows:
 
 ![](/images/pll_zoom.png)
 
+![](/images/zoom.png)
+
 Red: Reference Clock <br />
 Blue: Output Clock Divided by 8 <br />
 Yellow: Down Signal <br />
