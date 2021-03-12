@@ -58,18 +58,25 @@ Yellow: Down Signal <br />
 Brown: Up Signal <br />
 Pink (at top): ChargePump output  <br />
 
-### Work done in week 3
-1. Increased the xm44 pfet width from 480n to 640n in charge pum to fix the error it was causing.
+## Layout
 
-![](/images/w3_!.png)
+### Frequency Divider
 
-2. Changed transistor widths for FD.cir to fix the frequency
+![](/images/FD_layout.png)
 
-![](/images/w3_2.png)
+### Charge Pump
 
-3. Changed widths of lots of pfets in VCO. Was ablr to fix the voltage swings and levels but still having problem with the frequency.
+![](/images/CP_layout.png)
 
-![](/images/w3_3.png)
+## Post Layout Simulation
+
+### Frequency Divider
+
+![](/images/fd_PLS.png)
+
+### Charge Pump
+
+![](/images/CP_PLS.png)
 
 ### Future Work
 The main broblem remaining is to fix the frequency of the VCO. This is causing the error in the PLL.
