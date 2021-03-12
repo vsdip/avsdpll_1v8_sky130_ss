@@ -48,9 +48,9 @@ The PLL output from the prelayout simulation is as follows:
 ![](/images/pll3.png)
 
 
-![](/images/pll_zoom.png)
+![](/images/pll4.png)
 
-![](/images/zoom.png)
+![](/images/pll5.png)
 
 Red: Reference Clock <br />
 Blue: Output Clock Divided by 8 <br />
