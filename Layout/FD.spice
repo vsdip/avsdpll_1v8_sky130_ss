@@ -1,0 +1,89 @@
+* SPICE3 file created from FD.ext - technology: sky130A
+.include ~/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib
+.option scale=0.01u
+
+*.subckt FD Clk_Out GND Clk_In VDD
+XM1000 a_79_75# Clk_In VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=10944 ps=1024
+XM1001 GND a_597_66# a_787_62# GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=5472 pd=664 as=1116 ps=134
+XM1002 a_332_67# a_79_75# a_190_75# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=3306 ps=344
+XM1003 a_463_74# a_332_67# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=3306 pd=344 as=0 ps=0
+XM1004 a_79_75# Clk_In GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=0 ps=0
+XM1005 a_190_75# a_143_127# GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=3480 pd=356 as=0 ps=0
+XM1006 a_143_127# a_597_66# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2088 pd=202 as=0 ps=0
+XM1007 a_597_66# a_79_75# a_463_74# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=3480 ps=356
+XM1008 a_143_127# a_597_66# GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=0 ps=0
+XM1009 VDD a_597_66# a_787_62# VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=0 pd=0 as=2232 ps=206
+XM1010 Clk_Out a_787_62# GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=1044 pd=130 as=0 ps=0
+XM1011 a_190_75# a_143_127# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=0 pd=0 as=0 ps=0
+XM1012 a_332_67# Clk_In a_190_75# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1013 a_597_66# Clk_In a_463_74# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1014 Clk_Out a_787_62# VDD VDD sky130_fd_pr__pfet_01v8 w=72 l=15
++  ad=2143 pd=204 as=0 ps=0
+XM1015 a_463_74# a_332_67# GND GND sky130_fd_pr__nfet_01v8 w=36 l=15
++  ad=0 pd=0 as=0 ps=0
+C0 Clk_Out a_597_66# 0.01fF
+C1 Clk_Out a_143_127# 0.04fF
+C2 Clk_In a_463_74# 0.20fF
+C3 VDD a_463_74# 0.19fF
+C4 a_190_75# a_463_74# 0.04fF
+C5 a_597_66# a_463_74# 0.32fF
+C6 a_143_127# a_463_74# 0.21fF
+C7 a_332_67# a_463_74# 0.12fF
+C8 a_787_62# Clk_In 0.01fF
+C9 VDD Clk_In 1.10fF
+C10 a_787_62# VDD 0.21fF
+C11 a_190_75# Clk_In 0.30fF
+C12 a_597_66# Clk_In 0.17fF
+C13 a_143_127# Clk_In 1.17fF
+C14 a_787_62# a_597_66# 0.44fF
+C15 a_463_74# a_79_75# 0.12fF
+C16 a_787_62# a_143_127# 0.12fF
+C17 a_332_67# Clk_In 0.14fF
+C18 a_190_75# VDD 0.22fF
+C19 VDD a_597_66# 0.19fF
+C20 VDD a_143_127# 0.38fF
+C21 VDD a_332_67# 0.15fF
+C22 a_190_75# a_143_127# 0.20fF
+C23 a_597_66# a_143_127# 0.64fF
+C24 a_190_75# a_332_67# 0.28fF
+C25 a_332_67# a_597_66# 0.02fF
+C26 a_332_67# a_143_127# 0.19fF
+C27 Clk_In a_79_75# 0.60fF
+C28 VDD a_79_75# 0.37fF
+C29 a_190_75# a_79_75# 0.29fF
+C30 a_597_66# a_79_75# 0.03fF
+C31 a_143_127# a_79_75# 0.84fF
+C32 Clk_Out a_787_62# 0.17fF
+C33 a_332_67# a_79_75# 0.16fF
+C34 Clk_Out VDD 0.10fF
+C35 VDD 0 3.76fF
+C36 a_787_62# 0 0.47fF
+C37 a_597_66# 0 1.33fF
+C38 a_463_74# 0 0.36fF
+C39 a_332_67# 0 0.44fF
+C40 a_190_75# 0 0.38fF
+C41 a_79_75# 0 1.06fF
+C42 a_143_127# 0 0.99fF
+
+v1 VDD 0 1.8
+v2 Clk_In 0 PULSE 0 1.8 1p 6p 6p 5ns 10ns
+
+.ic v(Clk_Out) = 1
+.control 
+tran 0.1ns 0.2us
+plot v(Clk_In)+2 v(Clk_Out)
+.endC
