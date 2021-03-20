@@ -48,9 +48,9 @@ The PLL output from the prelayout simulation is as follows:
 ![](/images/pll3.png)
 
 
-// ![](/images/pll4.png)
+<!-- ![](/images/pll4.png) -->
 
-// ![](/images/pll5.png)
+<!-- ![](/images/pll5.png) -->
 
 ![](/images/pll_100.png)
 
