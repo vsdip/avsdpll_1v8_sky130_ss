@@ -57,7 +57,7 @@ The PLL output from the prelayout simulation is as follows:
 ![](/images/pll_101.png)
 
 ### Exact 100 MHz 
-![](/images/pll_102.png)
+![](/images/pll_104.png)
 
 Red: Reference Clock <br />
 Blue: Output Clock Divided by 8 <br />
