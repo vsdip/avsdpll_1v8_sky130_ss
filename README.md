@@ -69,25 +69,27 @@ Pink (at top): ChargePump output  <br />
 
 ### Frequency Divider
 
-![](/images/FD_layout.png)
+![](/images/fd_new.png)
 
 ### Charge Pump
 
 ![](/images/CP_layout.png)
 
+### Voltage Controlled Oscillator
+
+![](/images/vco_new.png)
+
 ## Post Layout Simulation
 
 ### Frequency Divider
 
-![](/images/fd_new.png)
+![](/images/fd_PLS.png)
 
 ### Charge Pump
 
 ![](/images/CP_PLS.png)
 
-### Voltage Controlled Oscillator
 
-![](/images/vco_new.png)
 
 ### Future Work
 Doing Layout for remaining components and doing a post layout simulation.
