@@ -69,7 +69,7 @@ Pink (at top): ChargePump output  <br />
 
 ### Frequency Divider
 
-![](/images/fd_new.png)
+![](/images/fd_1.png)
 
 ### Charge Pump
 
