@@ -97,8 +97,38 @@ Pink (at top): ChargePump output  <br />
 
 ![](/images/MUX_circuit.png)
 
-### Future Work
-Doing Layout for remaining components and doing a post layout simulation.
+### PLL Output
+
+### 40 MHz output
+
+### -Trend
+
+![](/images/pll_40_1.png)
+
+### Close up
+
+![](/images/pll_40_2.png)
+
+
+### 100 MHz output
+
+### -Trend
+
+![](/images/pll_100_1.png)
+
+### Close up
+
+![](/images/pll_100_2.png)
+
+### Exact 100 MHz
+
+![](/images/pll_104.png)
+
+
+
+
+
+
 
 ### Aknowledgement 
 This PLL IP was taken from Lakshmi S 's github page:  https://github.com/lakshmi-sathi/avsdpll_1v8
