@@ -12,6 +12,20 @@ Here M = 8
 
 Tested through spice simulations on skywater 130nm ss corner at room termperature
 
+<h3> Specifications </h3>
+
+| Parameter | Description | min | typ | max | Unit | Conditions |
+| --- | --- | --- | --- | --- | --- | --- |
+| VDD | Digital Supply | - | 1.8 | - | V | T = 27C |
+| F<sub>CLKREF</sub> | Reference | 5 | - | 12.5 | MHz | T = 27C |
+| F<sub>CLKOUT</sub> | Output Clock | 40 | - | 100 | MHz | PLL Mode, T = 27C |
+| F<sub>CLKOUT</sub> | Output Clock | - | - | - | MHz | VCO Mode, T = 27C |
+| J<sub>RMS</sub> | Jitter (rms) | - | - | - | ps | PLL_Mode |
+| DC | Duty Cycle | 52.7 | - | 50 | % | T = 27C | 
+| T<sub>SET</sub> | Settling Time | ~37 | - | ~22 | us | T = 27C |
+| C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
+| IDD | Supply Current | - | - | - | fF | T = 27C |
+
 ### PD Circuit ouput
 
 ![](/images/pd1.png)
