@@ -79,6 +79,10 @@ Pink (at top): ChargePump output  <br />
 
 ![](/images/vco_new.png)
 
+### MUX 
+
+![](/images/MUX_layout.png)
+
 ## Post Layout Simulation
 
 ### Frequency Divider
@@ -89,7 +93,9 @@ Pink (at top): ChargePump output  <br />
 
 ![](/images/CP_PLS.png)
 
+### MUX 
 
+![](/images/MUX_circuit.png)
 
 ### Future Work
 Doing Layout for remaining components and doing a post layout simulation.
