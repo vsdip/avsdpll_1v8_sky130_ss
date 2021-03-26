@@ -1,0 +1,142 @@
+* SPICE3 file created from VCO.ext - technology: sky130A
+.include ~/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib
+.option scale=0.01u
+
+*.subckt VCO VCtrl VDD GND Clk_Out ENb
+XM1000 GND VCtrl a_19_462# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=7134 pd=666 as=2436 ps=226
+XM1001 Clk_Out a_109_205# a_393_418# VDD sky130_fd_pr__pfet_01v8 w=108 l=15
++  ad=3132 pd=274 as=10434 ps=948
+XM1002 a_109_205# a_653_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=240 l=15
++  ad=7200 pd=540 as=17748 ps=1688
+XM1003 a_653_102# a_553_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1004 a_653_102# a_553_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=21228 ps=1928
+XM1005 a_109_205# a_653_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=120 l=15
++  ad=3480 pd=298 as=0 ps=0
+XM1006 a_453_102# a_353_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1007 a_553_102# a_453_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1008 a_553_102# a_453_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1009 a_353_102# a_253_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1010 a_453_102# a_353_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1011 a_393_418# ENb VDD VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=0 pd=0 as=1386 ps=150
+XM1012 GND VCtrl a_109_102# GND sky130_fd_pr__nfet_01v8 w=108 l=15
++  ad=0 pd=0 as=0 ps=0
+XM1013 a_253_102# a_153_102# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1014 a_253_102# a_153_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1015 a_353_102# a_253_102# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1016 a_153_102# a_109_205# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=42 l=15
++  ad=1218 pd=142 as=0 ps=0
+XM1017 a_153_102# a_109_205# a_109_102# GND sky130_fd_pr__nfet_01v8 w=84 l=15
++  ad=2436 pd=226 as=0 ps=0
+XM1018 Clk_Out a_109_205# GND GND sky130_fd_pr__nfet_01v8 w=54 l=15
++  ad=1566 pd=166 as=0 ps=0
+XM1019 a_393_418# a_19_462# a_19_462# VDD sky130_fd_pr__pfet_01v8 w=84 l=15
++  ad=0 pd=0 as=2436 ps=226
+XM1020 a_393_418# a_19_462# a_109_253# VDD sky130_fd_pr__pfet_01v8 w=120 l=15
++  ad=0 pd=0 as=0 ps=0
+C0 a_109_205# VDD 0.25fF
+C1 VDD Clk_Out 0.01fF
+C2 a_393_418# a_19_462# 0.27fF
+C3 a_109_205# ENb 0.07fF
+C4 a_109_253# a_653_102# 0.17fF
+C5 VDD a_153_102# 0.02fF
+C6 a_253_102# a_453_102# 0.05fF
+C7 a_109_102# a_453_102# 0.24fF
+C8 a_109_205# a_553_102# 0.19fF
+C9 a_653_102# VDD 0.02fF
+C10 a_109_205# a_19_462# 0.00fF
+C11 a_109_205# a_393_418# 0.23fF
+C12 a_393_418# Clk_Out 0.13fF
+C13 a_653_102# ENb 0.03fF
+C14 a_253_102# a_353_102# 0.13fF
+C15 a_109_102# a_353_102# 0.24fF
+C16 a_109_102# VCtrl 0.11fF
+C17 a_109_253# a_253_102# 0.18fF
+C18 a_653_102# a_553_102# 0.12fF
+C19 a_109_253# a_109_102# 0.24fF
+C20 a_653_102# a_393_418# 0.01fF
+C21 a_109_205# Clk_Out 0.13fF
+C22 a_253_102# VDD 0.02fF
+C23 a_353_102# a_453_102# 0.13fF
+C24 a_109_102# VDD 1.10fF
+C25 a_109_205# a_153_102# 0.21fF
+C26 a_109_253# a_453_102# 0.19fF
+C27 a_109_205# a_653_102# 0.27fF
+C28 a_653_102# Clk_Out 0.03fF
+C29 VDD a_453_102# 0.02fF
+C30 a_109_102# a_553_102# 0.24fF
+C31 a_109_102# a_19_462# 0.01fF
+C32 a_109_253# a_353_102# 0.19fF
+C33 a_453_102# a_553_102# 0.13fF
+C34 VDD a_353_102# 0.02fF
+C35 VDD VCtrl 0.01fF
+C36 a_19_462# a_453_102# 0.01fF
+C37 a_109_205# a_253_102# 0.17fF
+C38 a_393_418# a_453_102# 0.02fF
+C39 a_109_253# VDD 0.11fF
+C40 a_109_205# a_109_102# 0.23fF
+C41 a_109_102# Clk_Out 0.01fF
+C42 a_253_102# a_153_102# 0.13fF
+C43 a_109_253# ENb 0.09fF
+C44 a_109_102# a_153_102# 0.30fF
+C45 a_353_102# a_553_102# 0.05fF
+C46 a_19_462# VCtrl 0.04fF
+C47 a_393_418# a_353_102# 0.01fF
+C48 a_109_253# a_553_102# 0.18fF
+C49 a_109_205# a_453_102# 0.15fF
+C50 ENb VDD 0.15fF
+C51 a_653_102# a_109_102# 0.23fF
+C52 a_109_253# a_19_462# 0.05fF
+C53 a_109_253# a_393_418# 0.32fF
+C54 VDD a_553_102# 0.02fF
+C55 a_19_462# VDD 0.46fF
+C56 ENb a_553_102# 0.00fF
+C57 a_393_418# VDD 0.46fF
+C58 a_109_205# a_353_102# 0.15fF
+C59 a_653_102# a_453_102# 0.04fF
+C60 a_109_205# VCtrl 0.00fF
+C61 a_19_462# ENb 0.01fF
+C62 a_393_418# ENb 0.34fF
+C63 a_109_253# a_109_205# 0.31fF
+C64 a_153_102# a_353_102# 0.05fF
+C65 a_109_253# Clk_Out 0.03fF
+C66 a_153_102# VCtrl 0.00fF
+C67 a_109_102# a_253_102# 0.24fF
+C68 a_109_253# a_153_102# 0.17fF
+C69 a_19_462# a_553_102# 0.00fF
+C70 a_393_418# a_553_102# 0.01fF
+C71 VDD 0 0.09fF
+C72 VCtrl 0 0.28fF
+C73 a_553_102# 0 0.31fF
+C74 a_453_102# 0 0.31fF
+C75 a_353_102# 0 0.31fF
+C76 a_253_102# 0 0.32fF
+C77 a_153_102# 0 0.31fF
+C78 a_109_205# 0 1.62fF
+C79 a_109_253# 0 1.86fF
+C80 a_109_102# 0 1.87fF
+C81 a_653_102# 0 0.32fF
+C82 a_393_418# 0 0.63fF
+C83 a_19_462# 0 1.40fF
+
+
+v1 VDD 0 1.8
+v2 VCtrl 0 0.6
+v3 ENb 0 0
+
+.ic v(Clk_Out) = 0
+.control 
+tran 0.1ns 0.5us
+plot v(Clk_Out) v(VCtrl)
+.endc
