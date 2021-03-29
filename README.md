@@ -1,6 +1,6 @@
 # 130nm PLL Clock Multiplier IP
 
-## Table of Contents:
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -183,8 +183,12 @@ Pink (at top): ChargePump output  <br />
 4. Run the PLL circuit by typing `ngspice PLL_PreLay.cir` <br/>
 
 
+## Contact
 
-### Contact
+Subham Mohapatra - subham.m08@gmail.com
 
-### Aknowledgement 
-This PLL IP was taken from Lakshmi S 's github page:  https://github.com/lakshmi-sathi/avsdpll_1v8
+## Acknowledgements
+
+* [Lakshmi Sathi](https://github.com/lakshmi-sathi)
+* [Kunal Ghosh - Co-founder (VSD Corp. Pvt. Ltd)](https://github.com/kunalg123)
+
