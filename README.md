@@ -1,11 +1,52 @@
-# Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners
+# 130nm PLL Clock Multiplier IP
 
-### Running the Simulation
-1. Clone this repo. <br/>
-2. cd <repo_name>/Prelayout <br/>
-3. open the PLL_PreLay.cir and change .include /home/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib accordingly . <br/>
-4. Run the PLL circuit by typing `ngspice PLL_PreLay.cir` <br/>
+## Table of Contents:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#PLL-Clock-Multiplier">PLL Clock Multiplier</a>
+      </li>
+    <li>      
+      <a href="#Specifications ">Specifications</a>      
+      </li>
+    <li>
+      <a href="#Pre-Layout">Pre Layout</a>
+     <ul>
+        <li><a href="#PD Circuit ouput">PD Circuit ouput</a></li>
+        <li><a href="#Frequency Divider Circuit output">Frequency Divider Circuit output</a></li>
+        <li><a href="#Charge Pump(CP) output">Charge Pump(CP) output</a></li>
+        <li><a href="#VCO Output">VCO Output</a></li>
+        <li><a href="#PLL Output">PLL Output</a></li>
+        <li><a href="#configuration-files">Configuration Files</a></li>
+        <li><a href="#prepare-design">Prepare Design</a></li>
+        <li><a href="#synthesis">Synthesis</a></li>
+      </ul>
+      </li>
+    <li>      
+      <a href="#Layout">Layout</a>
+      <ul>
+        <li><a href="#PD-Circuit">PD Circuit ouput</a></li>
+        <li><a href="#Frequency-Divider-Circuit">Frequency Divider Circuit output</a></li>
+        <li><a href="#Charge-Pump(CP)">Charge Pump(CP) output</a></li>
+        <li><a href="#VCO">VCO Output</a></li>
+        <li><a href="#PLL">PLL Output</a></li>
+        <li><a href="#configuration-files">Configuration Files</a></li>
+        <li><a href="#prepare-design">Prepare Design</a></li>
+        <li><a href="#synthesis">Synthesis</a></li>
+      </ul>
+      </li>
+    <li>
+      <a href="#Contact">Contact</a>
+      </li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+      
+    
+  </ol>
+  </details>
 
+### PLL Clock Multiplier
 The block diagaram of the PLL as a clock multiplier is as follows:
 ![](/images/pll_freq.png)
 Here M = 8
@@ -26,7 +67,8 @@ Tested through spice simulations on skywater 130nm ss corner at room termperatur
 | C<sub>L</sub> | Load Capacitance | - | - | - | fF | T = 27C |
 | IDD | Supply Current | - | - | - | fF | T = 27C |
 
-### PD Circuit ouput
+## Pre Layout
+### PD Circuit
 
 ![](/images/pd1.png)
 
@@ -37,24 +79,24 @@ Blue: Clock 1 <br />
 Orange: Up Signal <br />
 Green: Down Signal
  
-### Frequency Divider Circuit output
+### Frequency Divider Circuit
 
 ![](/images/fd.png)
 
 Red: Output Clock <br />
 Blue: Input Clock  <br />
 
-### Charge Pump(CP) output
+### Charge Pump(CP)
 
 ![](/images/cp.png)
 
 Red: Charge Pump Output Voltage
 
-### VCO Output
+### VCO
 
 ![](/images/vco.png)
 
-### PLL Output
+### PLL
 
 The PLL output from the prelayout simulation is as follows:
 
@@ -111,7 +153,7 @@ Pink (at top): ChargePump output  <br />
 
 ![](/images/MUX_circuit.png)
 
-### PLL Output
+### PLL
 
 ### 40 MHz output
 
@@ -140,9 +182,15 @@ Pink (at top): ChargePump output  <br />
 
 ![](/images/pll_100_3.png)
 
+### Running the Simulation
+1. Clone this repo. <br/>
+2. cd <repo_name>/Prelayout <br/>
+3. open the PLL_PreLay.cir and change .include /home/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib accordingly . <br/>
+4. Run the PLL circuit by typing `ngspice PLL_PreLay.cir` <br/>
 
 
 
+### Contact
 
 ### Aknowledgement 
 This PLL IP was taken from Lakshmi S 's github page:  https://github.com/lakshmi-sathi/avsdpll_1v8
