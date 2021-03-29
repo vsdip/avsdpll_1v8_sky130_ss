@@ -14,24 +14,21 @@
     <li>
       <a href="#Pre-Layout">Pre Layout</a>
      <ul>
-        <li><a href="#PD Circuit ouput">PD Circuit</a></li>
-        <li><a href="#Frequency Divider Circuit output">Frequency Divider Circuit</a></li>
-        <li><a href="#Charge Pump(CP) output">Charge Pump(CP)</a></li>
-        <li><a href="#VCO Output">VCO</a></li>
-        <li><a href="#PLL Output">PLL</a></li>
+        <li><a href="#PD-Circuit">PD Circuit</a></li>
+        <li><a href="#Frequency-Divider-Circuit">Frequency Divider Circuit</a></li>
+        <li><a href="#Charge-Pump(CP)">Charge Pump(CP)</a></li>
+        <li><a href="#VCO">VCO</a></li>
+        <li><a href="#PLL">PLL</a></li>
       </ul>
       </li>
     <li>      
       <a href="#Layout">Layout</a>
       <ul>
-        <li><a href="#PD-Circuit">PD Circuit ouput</a></li>
-        <li><a href="#Frequency-Divider-Circuit">Frequency Divider Circuit output</a></li>
-        <li><a href="#Charge-Pump(CP)">Charge Pump(CP) output</a></li>
-        <li><a href="#VCO">VCO Output</a></li>
-        <li><a href="#PLL">PLL Output</a></li>
-        <li><a href="#configuration-files">Configuration Files</a></li>
-        <li><a href="#prepare-design">Prepare Design</a></li>
-        <li><a href="#synthesis">Synthesis</a></li>
+        <li><a href="#PD-Circuit">PD Circuit</a></li>
+        <li><a href="#Frequency-Divider-Circuit">Frequency Divider Circuit</a></li>
+        <li><a href="#Charge-Pump(CP)">Charge Pump(CP)</a></li>
+        <li><a href="#VCO">VCO</a></li>
+        <li><a href="#PLL">PLL</a></li>
       </ul>
       </li>
     <li>
@@ -50,7 +47,7 @@ Here M = 8
 
 Tested through spice simulations on skywater 130nm ss corner at room termperature
 
-<h3> Specifications </h3>
+### Specifications
 
 | Parameter | Description | min | typ | max | Unit | Conditions |
 | --- | --- | --- | --- | --- | --- | --- |
