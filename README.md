@@ -9,19 +9,16 @@
       <a href="#PLL-Clock-Multiplier">PLL Clock Multiplier</a>
       </li>
     <li>      
-      <a href="#Specifications ">Specifications</a>      
+      <a href="#Specifications">Specifications</a>      
       </li>
     <li>
       <a href="#Pre-Layout">Pre Layout</a>
      <ul>
-        <li><a href="#PD Circuit ouput">PD Circuit ouput</a></li>
-        <li><a href="#Frequency Divider Circuit output">Frequency Divider Circuit output</a></li>
-        <li><a href="#Charge Pump(CP) output">Charge Pump(CP) output</a></li>
-        <li><a href="#VCO Output">VCO Output</a></li>
-        <li><a href="#PLL Output">PLL Output</a></li>
-        <li><a href="#configuration-files">Configuration Files</a></li>
-        <li><a href="#prepare-design">Prepare Design</a></li>
-        <li><a href="#synthesis">Synthesis</a></li>
+        <li><a href="#PD Circuit ouput">PD Circuit</a></li>
+        <li><a href="#Frequency Divider Circuit output">Frequency Divider Circuit</a></li>
+        <li><a href="#Charge Pump(CP) output">Charge Pump(CP)</a></li>
+        <li><a href="#VCO Output">VCO</a></li>
+        <li><a href="#PLL Output">PLL</a></li>
       </ul>
       </li>
     <li>      
