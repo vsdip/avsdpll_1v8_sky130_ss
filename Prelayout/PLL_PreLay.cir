@@ -1,5 +1,5 @@
 *PLL
-.include /home/subham/Characterization-TCL-flow-for-8x-PLL-Clock-Multiplier-for-sky130-Process-Corners/sky130nm.lib
+.include ~/avsdpll_1v8_sky130_ss/sky130nm.lib
 
 
 xx1 Clk_Ref Clk_Out_by_8 up down pd
